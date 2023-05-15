@@ -8,16 +8,17 @@
     box-sizing: border-box;
 }
 
-.nav-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    z-index: 2;
+header nav a {
+    color: rgba(125, 121, 135, 1) !important;
+
 }
 
-header nav a {
-    color: rgba(125, 121, 135, 1);
+.z-2 {
+    z-index: 1;
+}
 
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .color-white {
@@ -25,7 +26,16 @@ header nav a {
 }
 
 .color-3 {
-    color: rgba(35, 51, 72, 1);
+    color: rgba(35, 51, 72, 1) !important;
+}
+
+.position-fixed {
+    position: fixed;
+    right: 0;
+}
+
+.mt-15 {
+    margin-top: 15%;
 }
 
 .position-bg {
@@ -37,21 +47,21 @@ header nav a {
 
 .position-dots-s1 {
     position: absolute;
-    left: -14%;
+    left: -10%;
     top: -1%;
     z-index: -1;
 }
 
 .position-dots-f {
     position: absolute;
-    left: -10%;
+    left: -6%;
     bottom: -40%;
 }
 
 .position-dots-f2 {
     position: absolute;
     right: 0%;
-    top: -85%;
+    top: -70%;
     z-index: -1;
 }
 
@@ -60,9 +70,10 @@ header nav a {
     right: -12%;
     top: 45%;
 }
+
 .position-s4 {
     position: absolute;
-    right: 5%;
+    right: 2%;
     top: -4%;
 }
 
@@ -82,7 +93,7 @@ header nav a {
 
 .position-shadow-s5 {
     position: absolute;
-    right: -9%;
+    right: -4%;
     top: 8%;
     z-index: -1;
 }
@@ -269,7 +280,6 @@ header nav a {
 .slider-box {
     background-color: rgba(90, 152, 242, 1);
     border-radius: 24px;
-    max-width: 1120px;
 }
 
 .min-vh-50 {
@@ -313,6 +323,68 @@ footer {
     background-color: rgba(90, 152, 242, 1);
 }
 
+.li ::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 25px;
+    background-color: blue;
+    transition: all 200ms linear;
+
+}
+
+/* -hover effects---- */
+.li :hover::after {
+    width: 100%;
+}
+
+header nav li :hover {
+    color: rgba(35, 51, 72, 1) !important;
+    font-weight: 700;
+}
+
+.btn-h :hover {
+    background-color: rgba(255, 255, 255, 1) !important;
+    color: rgba(69, 143, 246, 1) !important;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+}
+
+.btn-h2 :hover {
+    color: #ffffff !important;
+    background-color: rgba(69, 143, 246, 1) !important;
+}
+
+.btn-h2 :hover path {
+    color: #ffffff !important;
+    background-color: rgba(69, 143, 246, 1) !important;
+    fill: white;
+}
+
+.btn-h3 :hover {
+
+    background-color: rgba(64, 137, 237, 1) !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------hover effects end------ */
 @media (max-width:992px) {
     label[for="menuIcon"] {
         width: 35px;
@@ -374,6 +446,7 @@ footer {
     .right-arrow span {
         display: none;
     }
+
 }
 
 @media (max-width:576px) {
@@ -396,5 +469,15 @@ footer {
 
     .position-dots {
         display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .container-css {
+        max-width: 1217px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
 }
