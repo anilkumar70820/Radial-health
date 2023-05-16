@@ -102,6 +102,9 @@ header nav a {
 
 /* ------------------------- */
 /* ------Third Section------- */
+.w-545 {
+    width: 545px;
+}
 
 /* ------------------------- */
 /* ------Forth Section---------- */
@@ -250,6 +253,20 @@ footer ul li {
 
 /* -------------------- */
 /* ------Hover Effects------ */
+.li ::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: rgba(76, 153, 253, 1);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all 200ms linear;
+}
+
+.li :hover ::after {
+    width: 100%;
+}
 
 header nav li :hover {
     color: rgba(35, 51, 72, 1) !important;
