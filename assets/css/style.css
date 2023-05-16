@@ -8,106 +8,7 @@
     box-sizing: border-box;
 }
 
-header nav a {
-    color: rgba(125, 121, 135, 1) !important;
-
-}
-
-.z-2 {
-    z-index: 1;
-}
-
-.bg-white {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.color-white {
-    color: rgba(255, 255, 255, 1);
-}
-
-.color-3 {
-    color: rgba(35, 51, 72, 1) !important;
-}
-
-.position-fixed {
-    position: fixed;
-    right: 0;
-}
-
-.mt-15 {
-    margin-top: 15%;
-}
-
-.mt-10 {
-    margin-top: 10%;
-}
-
-.position-bg {
-    position: absolute;
-    left: -56px;
-    top: -25px;
-    z-index: -1;
-}
-
-.position-dots-s1 {
-    position: absolute;
-    left: -10%;
-    top: -1%;
-    z-index: -1;
-}
-
-.position-dots-f {
-    position: absolute;
-    left: -6%;
-    bottom: -18%;
-}
-
-.position-dots-f2 {
-    position: absolute;
-    right: 0%;
-    top: -40%;
-    z-index: -1;
-}
-
-.position-s3 {
-    position: absolute;
-    right: -12%;
-    top: 45%;
-}
-
-.position-s4 {
-    position: absolute;
-    right: 2%;
-    top: -4%;
-}
-
-.position-s4-2 {
-    position: absolute;
-    left: 5%;
-    bottom: 9%;
-    z-index: -1;
-}
-
-.position-dots-s5 {
-    position: absolute;
-    left: -3%;
-    top: 12%;
-    z-index: -1;
-}
-
-.position-shadow-s5 {
-    position: absolute;
-    right: -4%;
-    top: 8%;
-    z-index: -1;
-}
-
-.position-dots {
-    position: absolute;
-    right: -4%;
-    top: 45%;
-    z-index: -1;
-}
+/* -----Root----------- */
 
 :root {
     --fs-xsm: 16px;
@@ -142,6 +43,250 @@ header nav a {
     font-size: var(--fs-xxl);
 }
 
+/* ---------------------- */
+/* --------First Section With Header------------ */
+header nav a {
+    color: rgba(125, 121, 135, 1) !important;
+
+}
+
+.z-2 {
+    z-index: 1;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.r-box-h {
+    width: 41px;
+    height: 41px;
+    border-radius: 100px;
+    color: #ffffff;
+    background-color: rgba(90, 152, 242, 1);
+    padding: 5px 12px;
+}
+
+.position-dots-s1 {
+    position: absolute;
+    left: -10%;
+    top: -1%;
+    z-index: -1;
+}
+
+/* --------------------------------- */
+/* ------Second Section---------- */
+
+.row-box {
+    height: 354px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 54px 45px 46px 37px;
+}
+
+
+.position-dots {
+    position: absolute;
+    right: -4%;
+    top: 45%;
+    z-index: -1;
+}
+
+.position-bg {
+    position: absolute;
+    left: -56px;
+    top: -25px;
+    z-index: -1;
+}
+
+/* ------------------------- */
+/* ------Third Section------- */
+
+/* ------------------------- */
+/* ------Forth Section---------- */
+
+.left-arrow {
+    position: absolute;
+    left: 40%;
+    bottom: -40px;
+}
+
+.right-arrow {
+    position: absolute;
+    right: 40%;
+    bottom: -40px;
+}
+
+.position-s4 {
+    position: absolute;
+    right: 2%;
+    top: -4%;
+}
+
+.position-s4-2 {
+    position: absolute;
+    left: 5%;
+    bottom: 9%;
+    z-index: -1;
+}
+
+.slider-box {
+    background-color: rgba(90, 152, 242, 1);
+    border-radius: 24px;
+}
+
+.slick-slider {
+    position: static !important;
+}
+
+.slick-dots {
+    bottom: -40px;
+    left: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+    color: rgba(91, 155, 243, 0.5) !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: rgba(91, 155, 243, 1) !important;
+}
+
+/* --------------------- */
+/* ---------Fifth Section-------- */
+
+.btn-3 {
+    border: none;
+    background-color: white;
+    color: rgba(64, 137, 237, 1);
+}
+
+.position-dots-s5 {
+    position: absolute;
+    left: -3%;
+    top: 12%;
+    z-index: -1;
+}
+
+.position-shadow-s5 {
+    position: absolute;
+    right: -4%;
+    top: 8%;
+    z-index: -1;
+}
+
+.row-box-2 {
+    min-height: 512px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+
+.box-p {
+    padding: 21px 51px 35px 33px;
+}
+
+.radius {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* ----------------------- */
+/* -------Footer--------- */
+
+
+.position-dots-f {
+    position: absolute;
+    left: -6%;
+    bottom: -18%;
+}
+
+.position-dots-f2 {
+    position: absolute;
+    right: 0%;
+    top: -40%;
+    z-index: -1;
+}
+
+.line-2 {
+    border-bottom: 2px;
+    width: 56px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+footer h1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+footer ul li {
+    font-family: "mulish";
+    color: #ffffff;
+    font-size: var(--fs-sm);
+
+}
+
+.r-box {
+    width: 41px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: rgba(90, 152, 242, 1);
+    padding: 5px 12px;
+}
+
+
+
+footer {
+    background-color: rgba(90, 152, 242, 1);
+}
+
+footer ul li {
+    cursor: pointer;
+}
+
+/* -------------------- */
+/* ------Hover Effects------ */
+
+header nav li :hover {
+    color: rgba(35, 51, 72, 1) !important;
+    font-weight: 700;
+}
+
+.btn-h2 :hover {
+    color: #ffffff !important;
+    background-color: rgba(69, 143, 246, 1) !important;
+}
+
+.btn-h2 :hover path {
+    color: #ffffff !important;
+    background-color: rgba(69, 143, 246, 1) !important;
+    fill: white;
+}
+
+.btn-h3 :hover {
+
+    background-color: rgba(64, 137, 237, 1) !important;
+    color: white !important;
+}
+
+/* ------hover effects end------ */
+/* -----Common Classes-------- */
+.color-white {
+    color: rgba(255, 255, 255, 1);
+}
+
+.color-2 {
+    color: rgba(125, 121, 135, 1);
+}
+
+.color-3 {
+    color: rgba(35, 51, 72, 1) !important;
+}
+
 .fm-mulish {
     font-family: "mulish";
 }
@@ -160,6 +305,14 @@ header nav a {
 
 .fw-700 {
     font-weight: 700;
+}
+
+.line {
+    border-bottom: 2px;
+    width: 56px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 1);
+
 }
 
 .btn {
@@ -186,81 +339,6 @@ header nav a {
     justify-content: center;
 }
 
-.btn-3 {
-    border: none;
-    background-color: white;
-    color: rgba(64, 137, 237, 1);
-}
-
-.left-arrow {
-    position: absolute;
-    left: 40%;
-    bottom: -40px;
-}
-
-.right-arrow {
-    position: absolute;
-    right: 40%;
-    bottom: -40px;
-}
-
-.slick-slider {
-    position: static !important;
-}
-
-.slick-dots {
-    bottom: -40px;
-    left: 0;
-}
-
-.slick-dots li button:before {
-    font-size: 10px !important;
-    color: rgba(91, 155, 243, 0.5) !important;
-}
-
-.slick-dots li.slick-active button:before {
-    color: rgba(91, 155, 243, 1) !important;
-}
-
-.line {
-    border-bottom: 2px;
-    width: 56px;
-    height: 2px;
-    background-color: rgba(0, 0, 0, 1);
-
-}
-
-.line-2 {
-    border-bottom: 2px;
-    width: 56px;
-    height: 2px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.row-box {
-    height: 354px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
-    border-radius: 20px;
-    padding: 54px 45px 46px 37px;
-}
-
-.row-box-2 {
-    min-height: 512px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
-}
-
-.radius {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.box-p {
-    padding: 21px 51px 35px 33px;
-}
-
 .max-width {
     max-width: 952px;
 }
@@ -281,112 +359,16 @@ header nav a {
     max-width: 1120px;
 }
 
-.slider-box {
-    background-color: rgba(90, 152, 242, 1);
-    border-radius: 24px;
+.mt-15 {
+    margin-top: 15%;
 }
 
-.min-vh-50 {
-    min-height: 50vh;
+.mt-10 {
+    margin-top: 10%;
 }
 
-.color-2 {
-    color: rgba(125, 121, 135, 1);
-}
-
-footer h1 {
-    color: rgba(255, 255, 255, 1);
-}
-
-footer ul li {
-    font-family: "mulish";
-    color: #ffffff;
-    font-size: var(--fs-sm);
-
-}
-
-.r-box {
-    width: 41px;
-    height: 41px;
-    border-radius: 100px;
-    background-color: #ffffff;
-    color: rgba(90, 152, 242, 1);
-    padding: 5px 12px;
-}
-
-.r-box-h {
-    width: 41px;
-    height: 41px;
-    border-radius: 100px;
-    color: #ffffff;
-    background-color: rgba(90, 152, 242, 1);
-    padding: 5px 12px;
-}
-
-footer {
-    background-color: rgba(90, 152, 242, 1);
-}
-
-footer ul li {
-    cursor: pointer;
-}
-
-/* .li ::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    left: 0;
-    bottom: 25px;
-    background-color: blue;
-    transition: all 200ms linear;
-
-} */
-
-/* -hover effects---- */
-/* .li :hover::after {
-    width: 100%;
-} */
-
-header nav li :hover {
-    color: rgba(35, 51, 72, 1) !important;
-    font-weight: 700;
-}
-
-.btn-h2 :hover {
-    color: #ffffff !important;
-    background-color: rgba(69, 143, 246, 1) !important;
-}
-
-.btn-h2 :hover path {
-    color: #ffffff !important;
-    background-color: rgba(69, 143, 246, 1) !important;
-    fill: white;
-}
-
-.btn-h3 :hover {
-
-    background-color: rgba(64, 137, 237, 1) !important;
-    color: white !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------hover effects end------ */
+/* ------------------------ */
+/* ---------Media Queries-------- */
 @media (max-width:992px) {
     label[for="menuIcon"] {
         width: 35px;
@@ -496,3 +478,5 @@ header nav li :hover {
         padding-right: 12px !important;
     }
 }
+
+/* ---------------------------------- */
