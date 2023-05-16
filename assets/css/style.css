@@ -38,6 +38,10 @@ header nav a {
     margin-top: 15%;
 }
 
+.mt-10 {
+    margin-top: 10%;
+}
+
 .position-bg {
     position: absolute;
     left: -56px;
@@ -55,13 +59,13 @@ header nav a {
 .position-dots-f {
     position: absolute;
     left: -6%;
-    bottom: -40%;
+    bottom: -18%;
 }
 
 .position-dots-f2 {
     position: absolute;
     right: 0%;
-    top: -70%;
+    top: -40%;
     z-index: -1;
 }
 
@@ -159,19 +163,19 @@ header nav a {
 }
 
 .btn {
-    border: none;
+    border: 2px solid rgba(69, 143, 246, 1);
     width: 200px;
     height: 58px;
-    background-color: rgba(69, 143, 246, 1);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 1) !important;
+    color: rgba(69, 143, 246, 1) !important;
     border-radius: 55px;
 }
 
 .btn-2 {
-    border: 1.4px solid rgba(69, 143, 246, 1);
+    border: 2px solid rgba(69, 143, 246, 1);
     width: 200px;
     height: 56px;
     color: rgba(69, 143, 246, 1);
@@ -323,7 +327,11 @@ footer {
     background-color: rgba(90, 152, 242, 1);
 }
 
-.li ::after {
+footer ul li {
+    cursor: pointer;
+}
+
+/* .li ::after {
     content: "";
     position: absolute;
     width: 0;
@@ -333,22 +341,16 @@ footer {
     background-color: blue;
     transition: all 200ms linear;
 
-}
+} */
 
 /* -hover effects---- */
-.li :hover::after {
+/* .li :hover::after {
     width: 100%;
-}
+} */
 
 header nav li :hover {
     color: rgba(35, 51, 72, 1) !important;
     font-weight: 700;
-}
-
-.btn-h :hover {
-    background-color: rgba(255, 255, 255, 1) !important;
-    color: rgba(69, 143, 246, 1) !important;
-    border: 1.4px solid rgba(69, 143, 246, 1);
 }
 
 .btn-h2 :hover {
@@ -469,6 +471,19 @@ header nav li :hover {
 
     .position-dots {
         display: none;
+    }
+
+    :root {
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 30px;
+        --fs-xxl: 35px;
+    }
+
+    .w-sm-80 {
+        width: 80%;
     }
 }
 
